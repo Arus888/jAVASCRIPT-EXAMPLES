@@ -1,0 +1,4 @@
+var today = new Date();
+var day = today.getDate();
+var xmas = 31;
+console.log("there are "+ (xmas-day) + " days left until Christmas");
