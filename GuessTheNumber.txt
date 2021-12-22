@@ -1,0 +1,3 @@
+const num = Math.ceil(Math.random()*10);
+const gnum = prompt("guess the number");
+(gnum == num) ? console.log("right!") : console.log("no u r a bish " + "the number was " + num);
