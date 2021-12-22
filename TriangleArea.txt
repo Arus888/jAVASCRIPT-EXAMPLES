@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset=utf-8>
+ <body>
+<p></p>
+<script>
+var a = 5;
+var b = 6;
+var c = 7;
+var p = (a+b+c)/2;
+area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
+
+function something() {
+  console.log(area);
+}
+
+</script>
+  <button onclick="something()">Print this page</button>
+</body>
+ </head>
+ </html>
