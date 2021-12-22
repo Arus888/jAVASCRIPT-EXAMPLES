@@ -11,7 +11,7 @@ var month = today.getMonth();
 var year = today.getFullYear();
 
 function something() {
-  console.log(day + "-" + month + "-" + year);
+  console.log(day + "-" + month + 1 + "-" + year);
 }
 
 </script>
