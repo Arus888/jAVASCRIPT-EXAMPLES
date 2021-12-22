@@ -1,0 +1,7 @@
+var today = new Date();
+var day = today.getDay();
+var dayList = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+var hour = today.getHours();
+var minute = today.getMinutes();
+var second = today.getSeconds();
+console.log('today is ' + dayList[day]+" "+hour+":"+minute+":"+second);
