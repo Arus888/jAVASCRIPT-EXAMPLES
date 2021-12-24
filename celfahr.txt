@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <style type="text/css"></style>
+     <body style="margin:30px;">
+     <script>
+     function cf() {
+num = document.getElementById("num").value;
+document.getElementById("number").innerHTML = (num/5)*9+32+" F";
+}
+function fc() {
+num = document.getElementById("num").value;
+document.getElementById("number").innerHTML = 5*((num-32)/9)+" C";
+}
+     </script>
+     <div class="calculator"></div>
+     <p><input type="text" id="num" style="width: 10%;padding: 5px 6px;margin: 8px 0;box-sizing: border-box;">=<span id="number"> </span></p>
+     <p><input type="button" value="c > f" onClick="cf()"> 
+     <br>
+     <input type="button" value="f > c" onClick="fc()">
+     </p>
+    </body>
+  </head>
+</html>
