@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <style type="text/css"></style>
+    <body>
+      <script>function woof()
+{
+var x = document.getElementById("shit").value;
+console.log(x);
+}</script>
+<p><input type="text" id="shit" /> <input type="button" onClick="woof()" value="console"></p> 
+    </body>
+  </head>
+</html>
