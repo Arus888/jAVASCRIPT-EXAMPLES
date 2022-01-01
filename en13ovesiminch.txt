@@ -1,0 +1,7 @@
+var x = prompt("write a number");
+
+if (x<=13) {
+console.log(13-x);
+} else {
+console.log((x-13)*2);
+}
