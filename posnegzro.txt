@@ -1,0 +1,21 @@
+x = prompt("write a num");
+y = prompt("write a num");
+if (x < 0 && y > 0) {
+console.log('x is negative, y is positive');
+} else if (y < 0 && x > 0) {
+console.log('y is negative, x is positive');
+} else if ( x > 0 && y > 0) {
+console.log('both are positive');
+} else if ( x < 0 && y < 0) {
+console.log('both are negative');
+} else if (x == 0 && y < 0) {
+console.log('x is 0, y is negative');
+} else if (x == 0 && y > 0) {
+console.log('x is 0, y is positive');
+} else if (y == 0 && x < 0) {
+console.log('y is 0, x is negative');
+} else if (y == 0 && x > 0) {
+console.log('y is 0, x is positive');
+} else {
+console.log('both are 0');
+}
