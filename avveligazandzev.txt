@@ -1,0 +1,21 @@
+x = prompt("write a num");
+y = prompt("write a num");
+let txt = (x < 0 && y > 0) ? 
+console.log('x is negative, y is positive') :
+(y < 0 && x > 0) ?
+console.log('y is negative, x is positive') :
+(x > 0 && y > 0) ? 
+console.log('both are positive') :
+(x < 0 && y < 0) ?
+console.log('both are negative') :
+(x == 0 && y < 0) ?
+console.log('x is 0, y is negative') :
+(x == 0 && y > 0) ?
+console.log('x is 0, y is positive') :
+(y == 0 && x < 0) ?
+console.log('y is 0, x is negative') :
+(y == 0 && x > 0) ?
+console.log('y is 0, x is positive') :
+console.log('both are 0');
+
+console.log( txt );
