@@ -1,0 +1,8 @@
+var x = parseInt(prompt("write a number"));
+var y = parseInt(prompt("write a number"));
+
+if (x===y) {
+console.log(x+y);
+} else {
+console.log((x+y)*3);
+}
