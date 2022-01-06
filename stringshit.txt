@@ -1,3 +1,7 @@
 str=prompt("write a string");
+if (str.length >= 1) {
 strx = str.slice(str.length-1, 10) + str.slice(1, str.length-1) + str.slice(0,1);
 console.log(strx);
+} else {
+console.log(str);
+}
