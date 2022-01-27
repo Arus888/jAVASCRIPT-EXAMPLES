@@ -1,0 +1,22 @@
+x = prompt("write x");
+y = prompt("write y");
+
+do {
+x = prompt("write a positive integer");
+y = prompt("write a positive integer");
+} while (!(x > 0 && y > 0));
+
+if (x > 0 && y > 0) {
+if (x > y) {
+console.log("x is greater than y");
+} else if ( x == y) {
+console.log("x and y are equal");
+} else {
+console.log("y is greater than x");
+}
+} else {
+if (!(x > 0 && y > 0)) {
+x = prompt("number");
+y = prompt("number");
+}
+}
