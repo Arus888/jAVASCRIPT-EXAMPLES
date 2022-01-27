@@ -1,0 +1,13 @@
+x = -10;
+y = -400;
+
+ function check() {
+ if (x)
+ if (x - 100 < y-100) {
+ console.log("x is the nearest");
+ } else {
+ console.log("y is the nearest")
+ }
+ }
+ 
+ check();
