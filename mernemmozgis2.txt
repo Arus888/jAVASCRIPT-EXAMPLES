@@ -1,0 +1,29 @@
+function vochxar() {
+    x=prompt("write a x number");
+    y=prompt("write a y number");
+    z=prompt("write a z number");
+    a=prompt("write a number");
+
+    for (x, y, z; x>=0, y>=0, z>=0; x++, y++, z++) {
+        if (a == x.charAt(x.length-1)) {
+            console.log("x is yes");
+        } else {
+            console.log("x is no");
+        }
+        if (a == y.charAt(y.length-1)) {
+            console.log("y is yes");
+        } else {
+            console.log("y is no");
+        }
+        if (a == z.charAt(z.length-1)) {
+            console.log("z is yes");
+        } else {
+            console.log("z is no");
+        }
+    }
+    for (x, y, z; x<=0, y<=0, z<=0; x++, y++, z++) {
+        alert("write positive(0) numbers");
+        vochxar();
+    }
+}
+vochxar();
