@@ -1,0 +1,6 @@
+x = prompt("write a string");
+if (x.length <=3) {
+    console.log(x.toUpperCase());
+} else {
+    console.log(x.slice(0,3).toUpperCase()+x.slice(3, x.length));
+}
