@@ -1,0 +1,17 @@
+function vochxar() {
+    x=prompt("write a string");
+
+    for (x; x.length>=5; x++) {
+        y=prompt("write a character")
+        if (y == x.charAt(1) || y == x.charAt(2) || y == x.charAt(3)) {
+            console.log("yes");
+        } else {
+            console.log("no");
+        }
+    }
+    for (x; x.length<5; x++) {
+        alert("write a longer one");
+        vochxar();
+    }
+}
+vochxar();
